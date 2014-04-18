@@ -1,0 +1,12 @@
+for comment, i in comments
+  .panel.panel-default
+    .panel-body.user-comment(data-id=i)
+      .row.comment-header
+        .col-xs-3.comment-pic
+          img(src="http://gravatar.com/avatar/1?d=identicon")
+        .col-xs-9.comment-info
+          strong #{comment.user}
+          time.comment-ts #{comment.timestamp}
+      .row.comment-text
+        .col-xs-12
+          p #{comment.commentText}

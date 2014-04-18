@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#airlock p::selection {
+  background: rgba(155, 88, 181, .3);
+}
+
+.comment-pic img {
+  max-width: 80%;
+}
+
+.comment-pic {
+  padding-right: 0;
+}
+
+.comment-ts {
+  font-size: 11px;
+  font-style: italic;
+  color: gray;
+}
+
+.comment-info strong {
+  display: block;
+}
+
+.comment-input {
+  height: auto;
+}
+
+.comment-input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cancel-comment {
+  margin: 0 5px;
+}
+
+.highlight-box {
+  background-color: rgba(155, 88, 181, .5);
+}
+
+.comment-text {
+  margin-top: 10px;
+  font-style: italic;
+}
